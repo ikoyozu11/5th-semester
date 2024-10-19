@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supplier Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>MASTER</h2>
+      <ul>
+        <li><a href="index.html">Supplier</a></li>
+        <li><a href="#">Kategori</a></li>
+        <li><a href="#">Barang</a></li>
+        <li><a href="#">Purchase Order History</a></li>
+        <li><a href="#">Stok dan Harga</a></li>
+      </ul>
+      <h2>LAPORAN</h2>
+      <ul>
+        <li><a href="#">Transaksi Harian</a></li>
+        <li><a href="#">Laba Rugi Bulanan</a></li>
+        <li><a href="#">Neraca</a></li>
+        <li><a href="#">Keluar Masuk Barang</a></li>
+        <li><a href="#">Keluar</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <header>
+        <h1>Selamat Datang, Super Admin</h1>
+        <a href="tambah-supplier.html" class="btn-add">Tambah Supplier</a>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>NO</th>
+            <th>NAMA SUPPLIER</th>
+            <th>ALAMAT SUPPLIER</th>
+            <th>EMAIL SUPPLIER</th>
+            <th>TELP SUPPLIER</th>
+            <th>STATUS</th>
+            <th>AKSI</th>
+          </tr>
+        </thead>
+        <tbody id="supplier-table-body"></tbody>
+      </table>
+      <div class="pagination">
+        <span>Showing 0 entries</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

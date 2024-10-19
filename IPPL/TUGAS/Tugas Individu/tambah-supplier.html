@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tambah Supplier</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>MASTER</h2>
+      <ul>
+        <li><a href="index.html">Supplier</a></li>
+        <li><a href="#">Kategori</a></li>
+        <li><a href="#">Barang</a></li>
+        <li><a href="#">Purchase Order History</a></li>
+        <li><a href="#">Stok dan Harga</a></li>
+      </ul>
+      <h2>LAPORAN</h2>
+      <ul>
+        <li><a href="#">Transaksi Harian</a></li>
+        <li><a href="#">Laba Rugi Bulanan</a></li>
+        <li><a href="#">Neraca</a></li>
+        <li><a href="#">Keluar Masuk Barang</a></li>
+        <li><a href="#">Keluar</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <header>
+        <h1>Tambah Supplier Baru</h1>
+        <a href="index.html" class="btn-add">Kembali ke Tabel Supplier</a>
+      </header>
+
+      <div class="form-container">
+        <form id="form-supplier">
+          <label for="name">Nama Supplier:</label>
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="address">Alamat Supplier:</label>
+          <input type="text" id="address" name="address" required /><br />
+
+          <label for="email">Email Supplier:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="phone">Telp Supplier:</label>
+          <input type="tel" id="phone" name="phone" required /><br />
+
+          <button type="submit" class="btn-submit">Tambah Supplier</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
